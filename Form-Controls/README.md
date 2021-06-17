@@ -30,23 +30,23 @@ Do not write a form action for this project.
 
 Let's write out our testable criteria:
 
-- [ ] I have used HTML and CSS only.
+- [Y] I have used HTML and CSS only.
 
 ### HTML
 
-- [ ] My form is semantic html.
-- [ ] My Lighthouse Accessibility score is 100.
-- [ ] All inputs have associated labels.
-- [ ] I require a valid name. I have defined a valid name as a text string of two characters or more.
-- [ ] I require a valid email.
-- [ ] I require one colour from a defined set of three colours.
-- [ ] I require one date from a constrained date range.
+- [Y] My form is semantic html.
+- [Y] My Lighthouse Accessibility score is 100.
+- [Y] All inputs have associated labels.
+- [Y] I require a valid name. I have defined a valid name as a text string of two characters or more.
+- [Y] I require a valid email.
+- [Y] I require one colour from a defined set of three colours.
+- [Y] I require one date from a constrained date range.
 
 ### CSS
 
-- [ ] My form is usable at phone and desktop screen sizes.
-- [ ] I show which element is focused.
-- [ ] My Lighthouse Accessibility score is 100.
+- [Y] My form is usable at phone and desktop screen sizes.
+- [Y] I show which element is focused.
+- [Y] My Lighthouse Accessibility score is 100.
 
 ## Extension Task
 

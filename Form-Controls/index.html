@@ -1,28 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My form exercise</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Product Pick</h1>
-  </header>
-  <main>
-  <form>
-    <!-- write your html here-->
-    <!-- try writing out the requirements first-->
-  </form>
-
-  </main>
-  <footer>
-    <!-- change to your name-->
-    <h2>By HOMEWORK SOLUTION</h2>
-  </footer>
-</body>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My form exercise</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Product Pick</h1>
+    </header>
+    <main>
+      <form>
+        <!--Inputs-->
+        <p>Please confirm if you are the account holder</p>
+        <label for="customer-name">First Name</label>
+        <p><!--Space--></p>
+        <input
+          id="customer-name"
+          type="text"
+          maxlength="30"
+          size="35"
+          pattern="Jhon"
+          placeholder="Your first name goes here!"
+          required
+          autofocus
+        />
+        <p><!--Space--></p>
+        <label for="email-check">Email</label>
+        <p><!--Space--></p>
+        <input
+          id="email-check"
+          type="email"
+          maxlength="30"
+          size="35"
+          placeholder="Your email goes here!"
+          required
+        />
+        <p><!--Space--></p>
+        <!--dropdown list-->
+        <hr />
+        <label for="t-shirt-color">Choose your T-shirt color</label>
+        <p><!--Space--></p>
+        <select name="color" id="t-shirt-color" required>
+          <option value="Green">Green</option>
+          <option value="Yellow">Yellow</option>
+          <option value="Purple">Purple</option>
+        </select>
+        <p><!--Space--></p>
+        <!--dropdown list-->
+        <label for="delivery-date">Delivery Date</label>
+        <p><!--Space--></p>
+        <input
+          id="delivery-date"
+          input
+          type="date"
+          name="datemax"
+          max="2021-07-15"
+          min="2021-06-15"
+          required
+        />
+        <p><!--Space--></p>
+        <!--Submit Button-->
+        <button>Submit selction</button>
+      </form>
+    </main>
+    <footer>
+      <!-- change to your name-->
+      <h2>By HOMEWORK SOLUTION</h2>
+    </footer>
+  </body>
 </html>
