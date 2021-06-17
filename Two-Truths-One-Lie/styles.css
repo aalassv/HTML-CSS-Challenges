@@ -28,6 +28,62 @@
 * take a screenshot at laptop and Moto G4 device sizes in Devtools
 */
 
-body {
-  font: 100% "Poppins", sans-serif;
+
+* {
+  font-family: 'Cuprum', serif;
+  padding: 0%;
+  text-align: center; /*check li tag*/ 
 }
+
+
+span  {
+  background-color: aqua;
+  color:blue;
+  border: solid;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* grid-auto-flow: column; */
+  gap: 1em;
+  background: #eee;
+  padding: 0% 10% 0% 10%;
+}
+
+.grid-item:last-child {
+  background: #799;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  width: 300px;
+}
+
+.flex-item {
+  border:tomato solid;
+  resize: both;
+}
+
+
+
+ use it for flex 'Cuprum', sans-serif;
+
+
+
+main grid for two flexbox
+
+
+copyright.
+
+
+
+/* media-queries */
+
+a 660
+/* grid from to row to column */
+    font-size: 1.8em;
+
+/* flex from space arround to column */
